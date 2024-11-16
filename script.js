@@ -76,7 +76,7 @@ function openTab(tabName) {
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzM_Oh3lJjRPNFAaIKG2q8DXeG1HjbNXY9R9atnOGOxW01QgEzB_DK48crbTSYQkgDz/exec'
   const form = document.forms['submit-to-google-sheet'];
   const sentmsg = document.getElementById("Success_Msg");
-  const unsentmsg = document.getElementById("Unsent_Msg")
+  const unsentmsg = document.getElementById("Unsent_Msg");
 
   form.addEventListener('submit', e => {
     e.preventDefault()
