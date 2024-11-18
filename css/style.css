@@ -715,6 +715,9 @@ section .title::after {
     width: 85%;
 }
 
+.skills-content .right .figma::before {
+    width: 85%;
+}
 
 
 
