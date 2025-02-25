@@ -143,3 +143,9 @@
 .content{
     padding: 20px;
 }
+
+.card_dash{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+}
