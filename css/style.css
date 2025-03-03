@@ -159,6 +159,8 @@ section {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
+    position: relative;
+    z-index: 99;
 }
 
 .about,
@@ -310,6 +312,12 @@ section .title::after {
 
 
 /* home section styling */
+#canvas, #canvas_role{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
 .home {
     display: flex;
     background: url("../images/banner.jpg") no-repeat center;
